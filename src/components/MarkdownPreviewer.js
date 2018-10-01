@@ -41,6 +41,7 @@ But let's throw in a <b>tag</b>.
       <div>
         <header>
           <h1>Markdown Previewer</h1>
+          <a href="https://github.com/kaimies/fcc-markdown-preview" target="_blank" rel="noopener noreferrer">Source Code</a>
         </header>
         <div className="container">
           <Editor markdown={this.state.markdown} onChange={this.handleEditorInputChange} />
