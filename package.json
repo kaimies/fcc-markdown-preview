@@ -2,7 +2,7 @@
   "name": "markdown-previewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kaimies.github.io/markdown-previewer/",
+  "homepage": "https://kaimies.github.io/fcc-markdown-preview/",
   "dependencies": {
     "marked": "^0.5.1",
     "react": "^16.5.2",
