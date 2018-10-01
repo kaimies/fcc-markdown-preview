@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import MarkdownPreviewer from './components/MarkdownPreviewer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <MarkdownPreviewer />
       </div>
     );
   }
