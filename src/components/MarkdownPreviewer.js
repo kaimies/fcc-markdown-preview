@@ -8,9 +8,27 @@ class MarkdownPreviewer extends Component {
   state = {
     markdown: 
 `
+
 # Hello
 ## This is a markdown editor
-[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Here is a link to a markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+**You can make text bold**
+
+Inline \`code\` has \`back-ticks around\` it.
+
+\`\`\`
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+\`\`\`
+
+1. First ordered list item
+2. Another item
+
+> You can create block quotes
+
+![alt text](https://via.placeholder.com/350x150 "Placeholder Image")
 `,
   };
 
